@@ -1,0 +1,304 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: tahoma;
+}
+
+/* Container */
+
+.container {
+    width:1170px;
+    margin:auto;
+}
+
+/* Button */
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #07a9cd;
+    border: 2px solid #006b83;
+}
+
+/* Header area */
+
+header {
+    width:100%;
+}
+.logo {
+    width:40%;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+}
+.logo h1 {
+    margin:10px;
+    text-transform: uppercase;
+}
+.navigation {
+    width: 60%;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navigation nav ul li {
+    display: inline-block;
+}
+.navigation nav ul li a {
+    text-decoration:none;
+    font-size: 20px;
+    display: block;
+    padding:10px 15px;
+    color:#000000;
+}
+.navigation nav ul li a:hover {
+    background-color: #dddddd;
+}
+
+/* Entroduction area */
+
+.entro {
+    width:100%;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+.entro_text {
+    width:50%;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+    margin-top:150px;
+}
+.entro_text h1 {
+    font-size: 55px;
+    margin:0;
+    text-transform: uppercase;
+}
+.entro_img {
+    width:50%;
+    height: 650px;
+    float: left;
+    overflow: hidden;
+}
+.entro_img img {
+    margin:40px 0 0 50px;
+}
+
+/* About me area */
+
+.about {
+    overflow: hidden;
+}
+.about_img {
+    width:50%;
+    height: 450px;
+    float:left;
+    overflow: hidden;
+}
+.about_img img {
+    width: 400px;
+    height: 470px;
+    margin: 40px 0 0 110px;
+}
+.about_text {
+    width:50%;
+    height: 450px;
+    float: left;
+    overflow: hidden;
+}
+.about_text h1 {
+    font-size: 45px;
+}
+.flex_about {
+    margin:110px 0 0 20px;
+}
+
+/* Offered */
+
+.offered {
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.offer_services {
+    margin-top:70px;
+    overflow: hidden;
+    text-align: center;
+}
+.offer_entro {
+    width:60%;
+    margin:auto;
+}
+.offer {
+    width:300px;
+    float: left;
+    overflow: hidden;
+    margin:20px 45px;
+}
+.offer_img {
+    width:100%;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer_img img {
+    width:100px;
+    height: 80px;
+}
+.offer_text {
+    width:100%;
+    height:180px;
+}
+
+/* Skill chart */
+
+.all_skills {
+    margin:50px 0;
+}
+
+.skills_text {
+    width:100%;
+    text-align: center;
+}
+
+* {box-sizing:border-box}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+.css {
+    width: 80%; 
+    background-color: #2196F3;
+}
+.js {
+    width: 65%; 
+    background-color: #f44336;
+}
+.php {
+    width: 60%; 
+    background-color: #808080;
+}
+
+/* Works */
+
+.works {
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.flex_works {
+    margin:70px 0;
+    overflow: hidden;
+}
+.works_text {
+    text-align: center;
+    background-image: url("img/work.png");
+}
+.show {
+    width:300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 45px;
+}
+.show_image {
+    width:100%;
+    height: 350px;
+    overflow: hidden;
+    background-image: url("img/work.png");
+    background-repeat: no-repeat;
+    background-position: center cover;
+    background-size: 100% 100%;
+}
+.show_title {
+    color:#ffffff;
+    margin:300px 0 0 20px;
+}
+
+/* Contact */
+
+.flex_contact {
+    width:100%;
+    height: 390px;
+}
+.contact_text {
+    width:50%;
+    float: left;
+    text-align: center;
+    padding:80px 10px 170px 10px;
+    background-color: #dddddd;
+}
+.contact_text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.contact_form {
+    width:50%;
+    float: left;
+    margin: 70px 0;
+}
+.contact_form form {
+    width:100%;
+    text-align: center;
+}
+.contact_form form input[type="text"]{
+    width:500px;
+    height:50px;
+    font-size: 20px;
+    padding-left: 15px;
+    margin:15px 0;
+}
+.contact_form form input[type="submit"]{
+    width:130px;
+    height:40px;
+    font-size: 20px;
+    padding-left: 15px;
+    margin:15px auto;
+}
+
+/* Footer */
+
+footer {
+    width:100%;
+    background-color: #2f2f2f;
+    color:#ffffff;
+    overflow: hidden;
+}
+.col {
+    width:33%;
+    float:left;
+    text-align: center;
+}
+.col form {
+    width:100%;
+    text-align: center;
+}
+.col form input[type="text"] {
+    width:300px;
+    height:30px;
+    font-size: 15px;
+    padding-left: 15px;
+    margin:15px 0;
+}
+.col form input[type="submit"] {
+    width:100px;
+    height:30px;
+    font-size: 15px;
+    margin:10px 0;
+}
